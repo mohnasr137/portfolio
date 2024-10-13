@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/download", (req, res) => {
-  res.sendFile(path.join(__dirname, "m1.pdf"));
+  res.sendFile(path.join(__dirname, "resume", "Mohamed_Nasr_BackEnd_Dev.pdf"));
 });
 
 app.use((req, res) => {
